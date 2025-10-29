@@ -270,7 +270,7 @@ function Peaky3DCard() {
           />
           <pointLight position={[-10, -10, -10]} intensity={0.5} color="#8b5cf6" />
           <pointLight position={[10, -10, 10]} intensity={0.5} color="#3b82f6" />
-          <Environment preset="studio" />
+          <Environment files="https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/studio_small_03_1k.hdr" />
 
           <PresentationControls
             enabled
